@@ -7,7 +7,6 @@ public class power {
     public static List<List<Integer>> powers(List<Integer> nums) {
         List<List<Integer>> totalSubsets = new ArrayList<>();
         int n = nums.size();
-
         // Iterate over all possible subsets
         for (int num = 0; num < (1 << n); num++) {
             List<Integer> subset = new ArrayList<>();
