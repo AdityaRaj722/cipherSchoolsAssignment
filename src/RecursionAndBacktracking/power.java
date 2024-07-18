@@ -16,8 +16,6 @@ public class power {
                     subset.add(nums.get(i));
                 }
             }
-
-            // Add subset to the list of subsets
             totalSubsets.add(subset);
         }
 
