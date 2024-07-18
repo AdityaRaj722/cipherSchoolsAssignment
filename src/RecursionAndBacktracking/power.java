@@ -10,7 +10,6 @@ public class power {
         // Iterate over all possible subsets
         for (int num = 0; num < (1 << n); num++) {
             List<Integer> subset = new ArrayList<>();
-
             // Construct subset based on bitmask
             for (int i = 0; i < n; i++) {
                 if ((num & (1 << i)) != 0) {
